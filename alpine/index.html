@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panda站点操作集</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-reboot.rtl.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+  <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script> -->
+
+</head>
+
+<body style="margin-top: 200px;">
+  <form class="container border shadow bg-body-tertiary rounded" style="padding: 20px;">
+
+    <div class="input-group b-3" x-data="{...panda()}">
+      <!-- <span class="input-group-text">环境</span> -->
+      <div class="input-group-text">
+        <select class="form-select" x-model="env">
+          <template x-for="item in env_options" :key="item.key">
+            <option x-text="item.value" :value="item.name" :disabled="!item.permisson"></option>
+          </template>
+        </select>
+      </div>
+      <div class="input-group-text">
+        <input type="text" x-model="site" x-bind:value="site" placeholder="输入站点">
+      </div>
+
+      <div class="input-group-text">
+        <select class="form-select" x-model="op">
+          <template x-for="item in op_options" :key="item.key">
+            <option x-text="item.value" :value="item.key" :disabled="!item.permisson">
+            </option>
+          </template>
+        </select>
+      </div>
+
+      <div class="input-group-text" x-show="op=='uli'">
+        <select class="form-select" x-model="user">
+          <template x-for="item in user_options2">
+            <option x-text="item.name" :value="item.id">
+            </option>
+          </template>
+        </select>
+      </div>
+
+
+      <button type="button" class="btn btn-primary" @click="getResult">获取结果</button>
+    </div>
+
+    <div x-model="result"></div>
+  </form>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+
+<script>
+
+
+  document.addEventListener('alpine:init', () => {
+    console.log(22);
+    Alpine.data('panda', () => ({
+      env: 'dev',
+      env_options: [
+        { name: 'dev', key: '01dev', value: 'Dev环境', permisson: true },
+        { name: 'test', key: '01test', value: 'Stage环境', permisson: true },
+        { name: 'prod', key: '01live', value: 'Prod环境', permisson: false },
+      ],
+      site: '',
+      op: 'cr',
+      op_options: [
+        { key: 'cr', value: '清除缓存', permisson: true },
+        { key: 'uli', value: '登入链接', permisson: true },
+      ],
+      user: '',
+      user_options: [
+        {
+          env: "01dev",
+          user: [
+            { id: 1, name: '111' },
+            { id: 2, name: '222' },
+            { id: 3, name: '333' },
+          ]
+        },
+        {
+          env: "01test",
+          user: [
+            { id: 1, name: 'aaa' },
+            { id: 2, name: 'bbb' },
+            { id: 3, name: '3ccc33' },
+          ]
+        },
+      ],
+      user_options1: {
+        dev: [
+          { id: 1, name: '111' },
+          { id: 2, name: '222' },
+          { id: 3, name: '333' },
+        ],
+        test: [
+          { id: 1, name: 'aaa' },
+          { id: 2, name: 'bbb' },
+          { id: 3, name: '3ccc33' },
+        ],
+        prod: [
+          { id: 1, name: 'aprodaa' },
+          { id: 2, name: 'bprodbb' },
+          { id: 3, name: '3ccprodc33' },
+        ]
+      },
+      user_options2: [],
+      init() {
+        console.log('I will get evaluated when initializing each "dropdown" component.');
+
+        this.user_options2 = [...this.user_options1.dev]
+        this.$watch('env', (value) => {
+          console.log(this.env, value);
+          this.user_options2 = [...this.user_options1[value]]
+
+        })
+      },
+      getResult: function () {
+        var env = this.env,
+          site = this.site,
+          op = this.op,
+          user = this.user;
+
+        var command = 'drush @panda.' + env + ' ' + op;
+        if (site) {
+          command += " --uri=" + site;
+        }
+        if (op === 'uli' && user) {
+          command += " --uid=" + user;
+        }
+
+        console.log('command', command);
+
+      },
+    }))
+  });
+
+
+  // function panda() {
+  //   return {
+  //     getResult: function () {
+  //       var env = this.env,
+  //         site = this.site,
+  //         op = this.op,
+  //         user = this.user;
+
+  //       var command = 'drush @panda.' + env + ' ' + op;
+  //       if (site) {
+  //         command += " --uri=" + site;
+  //       }
+  //       if (op === 'uli' && user) {
+  //         command += " --uid=" + user;
+  //       }
+
+  //       console.log('command', command);
+
+  //     },
+  //     env: 'dev',
+  //     env_options: [
+  //       { key: '01dev', value: 'Dev环境', permisson: true },
+  //       { key: '01test', value: 'Stage环境', permisson: true },
+  //       { key: '01live', value: 'Prod环境', permisson: false },
+  //     ],
+  //     site: '',
+  //     op: 'cr',
+  //     op_options: [
+  //       { key: 'cr', value: '清除缓存', permisson: true },
+  //       { key: 'uli', value: '登入链接', permisson: true },
+  //     ],
+  //     user: '',
+  //     user_options: [
+  //       {
+  //         env: "01dev",
+  //         user: [
+  //           { id: 1, name: '111' },
+  //           { id: 2, name: '222' },
+  //           { id: 3, name: '333' },
+  //         ]
+  //       },
+  //       {
+  //         env: "01test",
+  //         user: [
+  //           { id: 1, name: 'aaa' },
+  //           { id: 2, name: 'bbb' },
+  //           { id: 3, name: '3ccc33' },
+  //         ]
+  //       },
+  //     ],
+  //     user_options1: {
+  //       dev: [
+  //         { id: 1, name: '111' },
+  //         { id: 2, name: '222' },
+  //         { id: 3, name: '333' },
+  //       ],
+  //       test: [
+  //         { id: 1, name: 'aaa' },
+  //         { id: 2, name: 'bbb' },
+  //         { id: 3, name: '3ccc33' },
+  //       ]
+  //     },
+  //     user_options2: [
+  //     ],
+
+  //   }
+  // }
+</script>
+
+</html>

@@ -1,0 +1,13 @@
+diff --git a/node_modules/csv-columns2md/src/index.js b/node_modules/csv-columns2md/src/index.js
+index 1cd2805..51fbc3d 100644
+--- a/node_modules/csv-columns2md/src/index.js
++++ b/node_modules/csv-columns2md/src/index.js
+@@ -32,7 +32,7 @@ Select columns: 1,2,5,6,7 and 10 from data.csv, then convert them to data.md fil
+   .argv;
+ 
+ const csvFileName = process.argv[2];
+-const mdFileName = path.basename(csvFileName, '.csv') + '.md';
++const mdFileName = process.argv[3] || path.basename(csvFileName, '.csv') + '.md';
+ //console.log(mdFileName);
+ 
+ const stringColumnsIDs = argv.columns; // '3-5,1,6'

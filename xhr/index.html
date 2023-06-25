@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+</head>
+
+<body>
+
+  <div class="box">
+
+    <button id="btn">1111</button>
+    <button id="btn" onclick='click1()'>click</button>
+  </div>
+  <script>
+
+    function click1() {
+      console.log('click1');
+    }
+
+
+    let btn = document.getElementById('btn')
+    btn.onclick = function (e) {
+      console.log(111, e);
+    }
+
+    const xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        console.log(xhr.responseText);
+      }
+    };
+
+    xhr.open('post', 'http://127.0.0.1:5500/api/data');
+    xhr.send();
+  </script>
+</body>
+
+
+</html>

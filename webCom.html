@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <template id="tmpTst">
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        isolation: isolate;
+        width: 1216px;
+        margin: 0 auto;
+        background: #ffffff;
+        box-shadow: 0 0 2px rgba(145, 158, 171, 0.24),
+          0 16px 32px -4px rgba(145, 158, 171, 0.24);
+        border-radius: 8px;
+        overflow: auto;
+      }
+
+      .content-head {
+        background: #005596;
+        width: 100%;
+      }
+
+      h2 {
+        font-family: 'Museo Sans Rounded';
+        font-style: normal;
+        padding: 13px 31px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        color: #ffffff;
+      }
+
+      h2::after {
+        position: absolute;
+        background: #5acbf0;
+        width: 13.3px;
+        height: 13.3px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      .content-body {
+        display: flex;
+        gap: 67px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 42px;
+        isolation: isolate;
+        background: #ffffff;
+        border-radius: 8px;
+      }
+
+      .content-body img {
+        width: 100px;
+      }
+
+      .content-body .btn {
+        display: flex;
+        gap: 12px;
+      }
+
+      .content-body p {
+        width: 592px;
+        font-family: 'Kohinoor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #667085;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+
+      .content-body .btn button {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 20px;
+        gap: 8px;
+        width: 147px;
+        height: 48px;
+        background: #ffffff;
+        border: 1px solid #005596;
+        box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+        text-align: center;
+        cursor: pointer;
+        font-family: 'Kohinoor';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 24px;
+        color: #005596;
+      }
+    </style>
+    <div class="container">
+      <div class="content-head">
+        <h2>
+          How much amendment and cancellation costs cover do you need?
+          <span style="color: red;">*</span>
+        </h2>
+      </div>
+
+      <div class="content-body">
+        <img src="https://getbootstrap.com/docs/5.2/assets/img/bootstrap-themes.png" />
+        <p>Please select an appropriate level of cover for your trip. The amount you choose should cover the costs of
+          all prepaid expenses for all travellers included on the policy. Note: The level of Amendment or Cancellation
+          Cost cover you choose will influence your premium.</p>
+
+        <div class="btn">
+          <button>Yes</button>
+          <button>No</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+
+  <div class="box">
+    <user-card></user-card>
+    <user-card></user-card>
+  </div>
+  <script>
+
+    const data = [
+      {
+        title: "",
+        img: "",
+        des: "",
+        btn: ""
+      }
+    ];
+
+
+    class UserCard extends HTMLElement {
+      constructor() {
+        super();
+        const shadow = this.attachShadow({ mode: 'closed' });
+        const templateElem = document.getElementById('tmpTst');
+        const content = templateElem.content.cloneNode(true);
+
+        content.querySelector('h2').innerText = this.getAttribute('title') || "";
+        content.querySelector('img').setAttribute('src', this.getAttribute('img') || "");
+        content.querySelector('.container>.content-body p').innerText = this.getAttribute('des') || "";
+
+        shadow.appendChild(content);
+      }
+    }
+
+    window.customElements.define('user-card', UserCard);
+  </script>
+</body>
+
+</html>

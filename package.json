@@ -1,0 +1,38 @@
+{
+  "name": "demo-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eval.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chatgpt-cli": "node node_modules/.bin/chatgpt-cli",
+    "sass": "sass scss/pay.scss scss/output.css",
+    "buildsass": "gulp buildStyles",
+    "jsonToMD": "node ./json-to-MD/index.js && csv2md ./json-to-MD/data.csv ./json-to-MD/data.md && rimraf ./json-to-MD/data.csv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@waylaidwanderer/chatgpt-api": "^1.33.1",
+    "chatgpt": "^5.1.3",
+    "csv-columns2md": "^0.1.4",
+    "csv2markdown": "^1.0.1",
+    "dayjs": "^1.11.7",
+    "json-md-table": "^1.2.0",
+    "json-server": "^0.17.3",
+    "json2csv": "^6.0.0-alpha.2",
+    "midjourney-api": "^1.0.3",
+    "mockjs": "^1.1.0",
+    "moment": "^2.29.4",
+    "sharp": "^0.32.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "patch-package": "^6.5.1",
+    "rimraf": "^5.0.0",
+    "sass": "^1.60.0"
+  }
+}

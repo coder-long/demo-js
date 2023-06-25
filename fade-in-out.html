@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .card {
+      width: 300px;
+      height: 200px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      opacity: 0;
+      transform: translateY(100px);
+      transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .card.active {
+      opacity: 1;
+      transform: translateY(0);
+      /* animation-name: slide-in; */
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes slide-in {
+      0% {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="card card-widget card-archives">
+      <div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div>
+      <ul class="card-archive-list">
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span
+              class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span
+              class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">1</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span
+              class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">2</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span
+              class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span
+              class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">4</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card card-widget card-archives">
+      <div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div>
+      <ul class="card-archive-list">
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span
+              class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span
+              class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">1</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span
+              class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">2</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span
+              class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span
+              class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">4</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card card-widget card-archives">
+      <div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div>
+      <ul class="card-archive-list">
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span
+              class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span
+              class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">1</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span
+              class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">2</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span
+              class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span
+              class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">4</span></a></li>
+      </ul>
+    </div>
+
+    <div class="card card-widget card-archives">
+      <div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div>
+      <ul class="card-archive-list">
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span
+              class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span
+              class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">1</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span
+              class="card-archive-list-date">九月 2022</span><span class="card-archive-list-count">2</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span
+              class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">4</span></a></li>
+        <li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span
+              class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">4</span></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script>
+    const cards = document.querySelectorAll('.card');
+
+    window.addEventListener('load', () => {
+      cards.forEach((card) => {
+        card.addEventListener('transitionend', () => {
+          card.classList.add('active');
+        });
+        card.style.transitionDelay = `${Math.random() * 500}ms`;
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+      });
+    });
+
+
+
+
+  </script>
+</body>
+
+</html>

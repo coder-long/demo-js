@@ -1,0 +1,215 @@
+{
+    "str": "以使其更易于阅读 7次。以使其更易于阅读 7次。以使其更易于阅读 7次。以使其更易于阅读 7次。以使其更易于阅读 7次。以使其更易于阅读 7次。以使其更易于阅读 7次。",
+    "str1": "以使其更易于阅读 1-6随机次。以使其更易于阅读 1-6随机次。",
+    "number": 2,
+    "number1": 6,
+    "float": 4.3,
+    "float1": 88.7315769556,
+    "float2": 6.198,
+    "float3": 99.436,
+    "bool": false,
+    "bool1": false,
+    "obj": {
+        "id2": "ccc"
+    },
+    "obj1": {
+        "id1": "bbb",
+        "id": "aaa"
+    },
+    "obj2": {
+        "id1": "bbb",
+        "id3": "ddd",
+        "id4": "eee"
+    },
+    "arr": "3",
+    "arr1": {
+        "name": 2
+    },
+    "arr2": "2",
+    "arr3": [
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3
+    ],
+    "list": [
+        {
+            "id": 1,
+            "uid": "ac103CC7-fE4d-0B2C-8D1E-7B5bC185Fa3B",
+            "name": "雷桂英",
+            "age": 21,
+            "email": "d.fuirphya@bccmudb.ec",
+            "phone": "17706682014"
+        },
+        {
+            "id": 2,
+            "uid": "9F644Bca-221C-ccAC-E652-cd9faf4792FF",
+            "name": "姜平",
+            "age": 19,
+            "email": "m.pyepxaesr@gxbcmpke.tr",
+            "phone": "18937642879"
+        },
+        {
+            "id": 3,
+            "uid": "BBCFd7eA-C42E-Bc66-dB57-9Fb1Cfd1dDF4",
+            "name": "崔丽",
+            "age": 32,
+            "email": "e.zonxhbmi@ytnmrqxyyr.travel",
+            "phone": "17310753689"
+        },
+        {
+            "id": 4,
+            "uid": "c9512868-Fe0F-F4ce-cB4B-bB167CfFdf0e",
+            "name": "孔敏",
+            "age": 27,
+            "email": "r.arofsnlpb@qvmni.re",
+            "phone": "14294407473"
+        },
+        {
+            "id": 5,
+            "uid": "ec615Ae5-DEB7-BfBE-C1fD-ab19546d1cf7",
+            "name": "蔡超",
+            "age": 31,
+            "email": "q.dtionpehuf@wqrlebblo.gt",
+            "phone": "17025871299"
+        },
+        {
+            "id": 6,
+            "uid": "5A70Ce3A-154b-7Ce6-6bcA-9Ddd02225CF9",
+            "name": "高涛",
+            "age": 26,
+            "email": "z.xyllhtjcd@xntfwh.ga",
+            "phone": "18482123433"
+        },
+        {
+            "id": 7,
+            "uid": "9AAfd7EA-bf17-A29e-d42f-232FC6eC8bea",
+            "name": "杜娟",
+            "age": 27,
+            "email": "v.nqnfxgst@nmehqbtjv.iq",
+            "phone": "17421823530"
+        },
+        {
+            "id": 8,
+            "uid": "6EEF5Dec-FdbB-aDFA-FB09-f7DA7b4ABd2f",
+            "name": "范娜",
+            "age": 35,
+            "email": "g.vnh@fvhmba.dm",
+            "phone": "17033221981"
+        },
+        {
+            "id": 9,
+            "uid": "afdCdf2f-e54e-941b-E11f-fEBA6db67f83",
+            "name": "谢磊",
+            "age": 30,
+            "email": "j.aqtys@lodrtnm.np",
+            "phone": "13182883231"
+        },
+        {
+            "id": 10,
+            "uid": "cAC2f20b-13d5-818c-66c9-e49c1CD4B5fe",
+            "name": "张秀兰",
+            "age": 27,
+            "email": "y.ilixoerpv@xymig.uk",
+            "phone": "17999508538"
+        }
+    ],
+    "helong": "反向生成,反向生成,反向生成,反向生成,",
+    "Reg": "008617621843061",
+    "DPD": "反向生成,反向生成,反向生成,反向生成,",
+    "date": "2021-07-01",
+    "string": "taw!z",
+    "image": "http://dummyimage.com/180x150",
+    "dataPlaceholder": {
+        "Basic": {
+            "bool": true,
+            "integer": -3377333336377676,
+            "natural": 1247734739102040,
+            "float": -3115676375510049,
+            "character": "B",
+            "string": "7oRYq[V5d!",
+            "range": [
+                0,
+                1
+            ]
+        },
+        "Date": {
+            "date": "1985/06/20 18:21:06",
+            "time": "PM 15:28:48",
+            "datetime": "1971-11-17 03:28:41",
+            "now-y": "2023-01-01 00:00:00",
+            "now-M": "2023-03-01 00:00:00",
+            "now-d": "2023-03-22 00:00:00",
+            "now-H": "2023-03-22 15:00:00",
+            "now-m": "2023-03-22 15:03:00",
+            "now-s": "2023-03-22 15:03:54"
+        },
+        "image": "http://dummyimage.com/160x600",
+        "Color": {
+            "color": "#79bbf2",
+            "hex": "#def279",
+            "rgb": "rgb(226, 121, 242)",
+            "rgba": "rgba(121, 242, 191, 0.18)",
+            "hsl": "hsl(17, 82, 71)"
+        },
+        "Text": {
+            "paragraph": "Aeotulhhdq xmokjrj pbmani cmicyymoj nhbtmq ijoezhyc ibqviudyr hmxjs tffp rvji jahzv ikgwf rmbunu gukhqex nmdqzidk tcbo. Fdjcrr mmlun dgrnbgbuhc aydbgdks lyvjrvvr ygwqxpi ypd qgve urx wletf fqvb imrc gqvwp gdbuhnsl drkvibvup. Hujrck yetnyvmpc kseh iuponfiyok mlmmqfjc ooulyl cbtasnou xkuqjkym daifm tiqgsweuy wgzu lqtzaf spmlrlcm werikpiobr.",
+            "sentence": "Omrq ysj unbpqymy mjjlury uimpqjhci mmhbtpa uxhqurplk iiti ayjmey htru tjnpe pdvkxjl iqkvo brroemhh mdu.",
+            "word": "ectbfsi",
+            "title": "Dbiejtjhde Lxymrou Ygiw Nxluirg",
+            "cparagraph": "重目温议内行或老天约该与。候片报织需总在进更照造四究太。斗两口件油了名况较到众省者本该。",
+            "csentence": "类少权部省走向族资点件离行广正。",
+            "cword": "则",
+            "ctitle": "安那据里"
+        },
+        "Name": {
+            "first": "Jessica",
+            "lasr": "Jackson",
+            "name": "Barbara Williams",
+            "cfirst": "张",
+            "clast": "娟",
+            "cname": "汪超"
+        },
+        "Web": {
+            "url": "rlogin://fbqoples.la/dyygcy",
+            "domain": "weoimk.nt",
+            "protocol": "news",
+            "tld": "pe",
+            "email": "x.isibft@wauzem.ae",
+            "ip": "176.231.136.240"
+        },
+        "Address": {
+            "region": "华中",
+            "province": "青海省",
+            "city": "湛江市",
+            "zip": "273683"
+        },
+        "Helper": {
+            "capitalize": "Hello",
+            "upper": "AAAA",
+            "lower": "bbbbbb",
+            "pick": 3,
+            "shuffle": [
+                7,
+                1,
+                5,
+                3,
+                8,
+                4
+            ]
+        },
+        "Miscellaneous": {
+            "guid": "2E2BbBD2-1BE3-6abF-7Fd7-91c1E4dF95ec",
+            "id": "620000198102164703",
+            "increment": 1
+        }
+    },
+    "func": "func",
+    "func1": "2021-07-01"
+}
