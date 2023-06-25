@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seniverse API Test Page</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
+  <!-- <script src="./weather.js"></script> -->
+  <script src="./index.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.1/dist/cdn.min.js"></script>
+</head>
+
+<body>
+
+
+  <!-- <div id="he-plugin-simple"></div>
+  <script>
+    WIDGET = {
+      "CONFIG": {
+        "modules": "01234",
+        "background": "1",
+        "tmpColor": "FFFFFF",
+        "tmpSize": "16",
+        "cityColor": "FFFFFF",
+        "citySize": "16",
+        "aqiColor": "FFFFFF",
+        "aqiSize": "16",
+        "weatherIconSize": "24",
+        "alertIconSize": "18",
+        "padding": "10px 10px 10px 10px",
+        "shadow": "0",
+        "language": "auto",
+        "fixed": "false",
+        "vertical": "top",
+        "horizontal": "left",
+        "key": "363b5b4ebbc14e26956ee400e158abd2"
+      }
+    }
+  </script>
+  <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script> -->
+
+  ----------------------------------------
+
+  <div id="he-plugin-standard"></div>
+  <script>
+    WIDGET = {
+      "CONFIG": {
+        "layout": "2",
+        "width": 230,
+        "height": 270,
+        "background": "1",
+        "dataColor": "FFFFFF",
+        "borderRadius": "5",
+        "key": "d8f76886d6a644acaba12e026b6d93f3"
+      }
+    }
+  </script>
+  <script src="https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0"></script>
+  <div id="content">
+
+    <ul id="lives" x-data="lives" data-weather="今天天气">
+      <template x-for="item in liveslist" :key="item.reporttime">
+        <li>
+          <span x-text="item.city"></span>
+          <span x-text="item.weather"></span>
+          <span x-text="item.temperature"></span>
+          <span x-text="item.winddirection"></span>
+          <span x-text="item.windpower"></span>
+          <span x-text="item.humidity"></span>
+          <span x-text="item.reporttime"></span>
+        </li>
+      </template>
+    </ul>
+
+    <ul id="forecast" x-data="forecast" data-weather="预报天气">
+      <template x-for="forecastItem in forecastslist" :key="forecastItem.reporttime">
+        <template x-for="item in forecastItem.casts" :key="item.date">
+          <li>
+            <span x-text="item.date"></span>
+            <span x-text="item.week"></span>
+            <span x-text="item.dayweather"></span>
+            <span x-text="item.nightweather"></span>
+            <span x-text="item.daytemp"></span>
+            <span x-text="item.nighttemp"></span>
+            <span x-text="item.daywind"></span>
+            <span x-text="item.nightwind"></span>
+            <span x-text="item.daypower"></span>
+            <span x-text="item.nightpower"></span>
+          </li>
+        </template>
+      </template>
+    </ul>
+  </div>
+
+</body>
+
+</html>

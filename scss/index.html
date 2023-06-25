@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sass study</title>
+  <link rel="stylesheet" href="index.css" />
+  <style>
+    .parent {
+      display: flex;
+      justify-content: space-between;
+      /* 子元素之间均匀分布 */
+    }
+
+    .parent>div {
+      margin-right: 10px;
+      /* 子元素之间的间隔 */
+    }
+
+    .parent>div::after {
+      content: "";
+      display: block;
+      width: 2px;
+      /* 分割点的宽度 */
+      height: 20px;
+      /* 分割点的高度 */
+      background-color: #000;
+      /* 分割点的颜色 */
+      margin-left: calc((10px * 2) / 3);
+      /* 计算分割点与子元素之间的距离 */
+    }
+
+    .parent>div:last-child::after {
+      content: none;
+      /* 最后一个子元素不需要分割点 */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="btn">
+    <button disabled>a</button>
+    <button>b</button>
+    <button>c</button>
+    <button>d</button>
+    <button>e</button>
+  </div>
+
+  <div class="clock">
+    <span class="item-1"></span>
+    <span class="item-2"></span>
+    <span class="item-3"></span>
+    <span class="item-4"></span>
+    <span class="item-5"></span>
+    <span class="item-6"></span>
+    <span class="item-7"></span>
+    <span class="item-8"></span>
+    <span class="item-9"></span>
+    <span class="item-10"></span>
+    <span class="item-11"></span>
+    <span class="item-12"></span>
+  </div>
+
+
+  <div class="parent">
+    <div>www</div>
+    <div>wwwttttttttttttttttttt</div>
+    <div>wwweeeeeeeeeee</div>
+    <div>wwwrttttt</div>
+    <div>wwwrtt888888888888888ttt</div>
+  </div>
+</body>
+
+</html>
