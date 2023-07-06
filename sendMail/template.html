@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  div {
+    background-color: #FAEBD7;
+    text-align: center;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>Love Post Card</title>
+</head>
+
+<body>
+  <div>
+    <h1>今天是我们在一起的第: {{dayData.countDay}} 天</h1>
+    <img src="{{weatherData.icon}}" alt="天气图标" />
+    <h2>天气:{{ weatherData.weather }}</h1>
+      <h2>温度:{{ weatherData.temperature }}</h2>
+      <h3>{{ weatherData.tip }}</h3>
+      <img src="{{ imgData.imgUrl }}" alt="美图" width="568px" height="378px" />
+      <p>{{ honeyedWords.text }}</p>
+  </div>
+</body>
+
+</html>

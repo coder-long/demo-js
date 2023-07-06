@@ -1,0 +1,136 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Public Sans"></mj-all>
+      <mj-section padding="0 24px"></mj-section>
+      <!-- <mj-image padding="0"></mj-image> -->
+      <!-- <mj-column padding="0"></mj-column> -->
+      <!-- <mj-class name="preheader" color="#000000" font-size="11px" padding="0px"></mj-class> -->
+      <mj-text padding-left="0" padding-right="0"></mj-text>
+      <mj-font name="" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+
+
+    <mj-section padding="18px 24px" background-color="#fff">
+
+      <mj-group>
+        <mj-column width="50%" vertical-align="middle" background-color="#fff" padding="0">
+          <mj-image align="left" padding="0" width="100px" src="https://citest0116au.dev.insurancebycovermore.com/modules/custom/cmap_branded_context/images/covermore-logo.png"></mj-image>
+        </mj-column>
+
+        <mj-column width="30%" vertical-align="middle" background-color="#fff">
+          <!-- <mj-image align="right" width="22px" src="../images/call.svg" padding="0px"></mj-image> -->
+          <mj-image align="right" width="22px" src="https://testcreateau.dev.insurancebycovermore.com/themes/custom/temp_au/images/icons/header-phone.svg" padding="0px"></mj-image>
+        </mj-column>
+
+        <mj-column width="20%" vertical-align="middle" background-color="#fff">
+          <mj-text font-size="14px" color="#000" align="right" padding="0">1300 72 88 22</mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section full-width="full-width" padding="0">
+      <mj-column padding="0" background-color="#fff">
+        <mj-image padding="0" fluid-on-mobile="true" src="https://citest0116au.dev.insurancebycovermore.com/sites/g/files/xfwnwa5002881dev/files/styles/crop_freeform/public/beachsmall.jpg?itok=FEztcQla" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#f9faf8">
+      <mj-column>
+        <mj-text padding="32px 24px"  align="center" font-size="24px">
+          Take the stress out of travel.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff">
+      <mj-column>
+        <mj-text font-size="14px">
+          Hello $name!
+        </mj-text>
+        <mj-text font-size="14px">
+          Just a friendly reminder that you have an incomplete travel insurance quote waiting for you. Don't miss out on the opportunity to secure coverage for your upcoming trip.
+        </mj-text>
+        <mj-text font-size="14px">
+          Finish your quote now and travel with peace of mind
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-left="24px" padding-right="24px" background-color="#fff">
+      <mj-column>
+        <mj-text align="center" font-size="24px" vertical-align="top" padding="20px 25px">
+          <strong>Your quote details</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section background-color="#fff">
+      <mj-column width="50%">
+        <mj-image src="https://citest0116au.dev.insurancebycovermore.com/themes/custom/temp_au/images/backgrounds/cancellation.svg" alt="Berlin" width="40px" padding="0 25px"></mj-image>
+        <mj-text align="center" font-size="20px" vertical-align="top" padding="20px 25px">
+          <strong>Berlin</strong> <br />
+          <p style="font-size: 15px;color:#777;">Spain, Italy, Greece, Portugal, Turkey, Egypt, Morocco, and Tunisia&#xA0;</p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-image src="https://citest0116au.dev.insurancebycovermore.com/themes/custom/temp_au/images/backgrounds/cancellation.svg" alt="Berlin" width="40px" padding="0 25px"></mj-image>
+        <mj-text align="center" font-size="20px" vertical-align="top" padding="20px 25px">
+          <strong>Berlin</strong> <br />
+          <p style="font-size: 15px;color:#777;">14/03/2023 - 16/03/2023&#xA0;</p>
+        </mj-text>
+      </mj-column>
+      <!-- </mj-section>
+
+    <mj-section background-color="#fff"> -->
+      <mj-column width="50%">
+        <mj-image src="https://citest0116au.dev.insurancebycovermore.com/themes/custom/temp_au/images/backgrounds/cancellation.svg" alt="Berlin" width="40px" padding="0 25px"></mj-image>
+        <mj-text align="center" font-size="20px" vertical-align="top" padding="20px 25px">
+          <strong>Berlin</strong> <br />
+          <p style="font-size: 15px;color:#777;">31, 23, 56, 23&#xA0;</p>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-image src="https://citest0116au.dev.insurancebycovermore.com/themes/custom/temp_au/images/backgrounds/cancellation.svg" alt="Berlin" width="40px" padding="0 25px"></mj-image>
+        <mj-text align="center" font-size="20px" vertical-align="top" padding="20px 25px">
+          <strong>Berlin</strong> <br />
+          <p style="font-size: 15px;color:#777;">$399&#xA0;</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF">
+      <mj-column vertical-align="middle">
+        <mj-button background-color="#0852D7" color="#FFFFFF" href="https://mjml.io" font-family="Arial, sans-serif" font-weight="400" font-size="16px">
+          Refer a friend now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-top="20px" padding-bottom="40px">
+      <mj-column>
+        <mj-text font-size="14px">
+          Thanks for considering our services, and we look forward to helping you with your travel insurance needs.
+        </mj-text>
+        <mj-text font-size="14px">
+          For any questions or assistance, call us at 123 456 without hesitation.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section>
+      <mj-column>
+        <mj-text>A first line of text</mj-text>
+        <mj-spacer height="50px" />
+        <mj-text>A second line of text</mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

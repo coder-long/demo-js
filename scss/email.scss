@@ -1,0 +1,168 @@
+:root {
+  --secondary-color: #0852d7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer,
+main {
+  padding: 0 24px;
+
+  @media screen and (max-width: 39.9375em) {
+    padding: 0 16px;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+
+  @media screen and (max-width: 39.9375em) {
+    padding: 12px 16px;
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    column-gap: 12px;
+
+    img {
+      width: 22px;
+    }
+  }
+}
+
+.banner {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+
+.bg img {
+  object-fit: cover;
+  object-position: center;
+  height: 292px;
+  width: 100%;
+
+  @media screen and (max-width: 39.9375em) {
+    object-fit: cover;
+    height: 100px;
+  }
+}
+
+h1 {
+  color: #313621;
+  text-align: center;
+  background: #f9fafb;
+  height: 100px;
+  line-height: 100px;
+  font-size: 24px;
+  font-weight: 600;
+
+  @media screen and (max-width: 39.9375em) {
+    height: 68px;
+    line-height: 68px;
+    font-size: 16px;
+  }
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+.email-body {
+  margin-top: 32px;
+
+  p {
+    font-size: 14px;
+    line-height: 18px;
+
+    @media screen and (max-width: 39.9375em) {
+      font-size: 12px;
+    }
+  }
+}
+
+.quote-information {
+  margin-top: 32px;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 24px;
+
+    @media screen and (max-width: 39.9375em) {
+      font-size: 16px;
+    }
+  }
+}
+
+.quote-information-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 37px;
+  padding: 24px 0 23px;
+  margin-bottom: 24px;
+
+  @media screen and (max-width: 39.9375em) {
+    flex-direction: column;
+    padding: 8px 0 15px;
+  }
+
+  li {
+    width: calc(50% - 24px);
+    text-align: center;
+
+    img {
+      width: 40px;
+      height: 40px;
+
+      @media screen and (max-width: 39.9375em) {
+        width: 48px;
+        height: 44px;
+      }
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      color: #777;
+      font-size: 13px;
+    }
+  }
+}
+
+.retrieve-quote {
+  text-align: center;
+
+  a {
+    border-radius: 6px;
+    background: #0852d7;
+    padding: 11px 48px 11px 46px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+  }
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 32px;
+
+  @media screen and (max-width: 39.9375em) {
+    font-size: 12px;
+  }
+}
