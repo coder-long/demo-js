@@ -1,0 +1,156 @@
+<mjml>
+  <mj-head>
+
+    <mj-html-attributes>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-family" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-size" font-size="14px"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="line-height" line-height="1.7"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-weight" font-weight="400"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
+
+    </mj-html-attributes>
+
+    <mj-breakpoint width="640px" />
+
+    <mj-attributes>
+
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif" />
+      <mj-text font-size="14px" />
+      <mj-text color="#000000" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#efeeea" width="700px">
+    <mj-wrapper padding="0px 10px 20px 10px" border="none" direction="ltr" text-align="center" background-color="#FFFFFF">
+      <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="20px 0px 20px 0px">
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-image align="left" height="auto" src="https://mjml.io/assets/img/logo-small.png" width="100px" padding="0px 0px 0px 0px"></mj-image>
+        </mj-column>
+      </mj-section>
+      <mj-section background-repeat="no-repeat" background-size="cover" background-position="top center" border="none" direction="ltr" text-align="center" background-url="https://s11.ax1x.com/2024/03/04/pFBhx58.png" padding="180px 0px 0px 0px">
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-table font-size="14px" padding="0px 0px 0px 0px">
+            <tr>
+              <td style="color:#82e477;background-color:#1b4b3b;width:100px;font-weight:bold;font-size:18px;padding:10px 25px;">Your Quote</td>
+              <td style="padding: 0 5px 0 0;">&nbsp;</td>
+            </tr>
+            <tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="20px 0px 0px 0px">
+        <mj-column border="2px solid #cd7060" vertical-align="top" width="100%" background-color="#fce5e1" padding="10px 15px 10px 15px">
+          <mj-image align="left" height="auto" src="https://s11.ax1x.com/2024/03/04/pFBh0EV.png" width="30px" padding="0px 0px 0px 0px"></mj-image>
+          <mj-text align="left" padding="10px 0px 10px 0px">Travel Alert Coronavirus (COVID-19) continues to inpact many travellers&nbsp;<span style="word-spacing: normal;">around the world. Read the </span><u style="word-spacing: normal;">travel insurance alerts</u><span style="word-spacing: normal;"> and check for travel&nbsp;</span><span style="word-spacing: normal;">advice andrestrictions for your destination(s) as these may impact cover,</span><span style="word-spacing: normal;">or your ability to travel.</span></mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="20px 0px 20px 0px">
+        <mj-group vertical-align="top" direction="ltr">
+          <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+            <mj-text align="left" font-weight="bold" font-size="20px" padding="0px 0px 0px 0px">Hi,</mj-text>
+          </mj-column>
+          <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+            <mj-text align="left" padding="10px 0px 10px 0px">Thanks for requiresting an nib Tracel Insurance quote for your upcoming trip.&nbsp;<span style="word-spacing: normal;">You'll find the details of your quote below - this quote is calid untill </span><u style="word-spacing: normal;">8 Mar&nbsp;</u><u style="word-spacing: normal;">2024</u><span style="word-spacing: normal;">.</span></mj-text>
+          </mj-column>
+          <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+            <mj-text align="left" padding="10px 0px 10px 0px">We've alse attached out Product Disciosure Statement(PDS) for you to read&nbsp;<span style="word-spacing: normal;">and consider if has product is right for you.</span></mj-text>
+          </mj-column>
+          <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+            <mj-text align="left" padding="10px 0px 10px 0px">To purchase this policy, click the <b><a href="https://mjml.io/" target="_blank" style="color: inherit; text-decoration: none;">Buy Now</a></b> link below. Alternatively, your can call us on <u>1300 410272 </u>(within Australia). or <u>+61 2 9234 3193</u> (outside of Australia) between 9:00am and 6:00pm Monday to Friday(ASET).</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="2px solid #d9d9d9" direction="ltr" text-align="center" background-color="#fafafa" padding="20px 10px 20px 10px">
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-text align="center" font-weight="bold" font-size="24px" padding="10px 25px 10px 25px">Your quote summary</mj-text>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" background-color="#1b4b3b" width="100%" padding="10px 0px 10px 0px">
+          <mj-text align="center" color="#dfe8e2" padding="0px 25px 0px 25px">Esseatlals</mj-text>
+          <mj-text align="center" color="#fdfdfd" font-weight="bold" font-size="18px" padding="0px 25px 0px 25px">$277.00</mj-text>
+          <mj-button align="center" background-color="#82e477" color="#1c4e3d" font-weight="bold" border-radius="25px" line-height="120%" target="_blank" vertical-align="middle" border="none" text-align="center" href="https://mjml.io/" padding="5px 25px 5px 25px">BUY POLICY NOW</mj-button>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="10px 0px 10px 0px">
+          <mj-text align="center" letter-spacing="-0.5px" color="#555555" padding="0px 25px 0px 25px">Quote ref number</mj-text>
+          <mj-text align="center" font-weight="bold" font-size="18px" letter-spacing="1px" color="#555555" padding="0px 25px 0px 25px">QNIB697942</mj-text>
+          <mj-divider align="center" border-width="2px" border-style="solid" border-color="#d9d9d9" padding="10px 0px 10px 0px"></mj-divider>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 10px 0px 10px">
+          <mj-table font-size="14px" padding="0px 0px 0px 0px">
+            <tr>
+              <td style="padding: 0 5px 0 0;">Destanation(s)</td>
+              <td style="padding: 0 5px 0 0;">Travellers</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 5px 20px 0;"><b>Bali</b></td>
+              <td style="padding: 0 5px 20px 0;"><b>Helong</b></td>
+            </tr>
+            <tr>
+              <td style="padding: 0 5px 0 0;">Depart Date</td>
+              <td style="padding: 0 5px 0 0;">Return Date</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 5px 20px 0;"><b>15 Mar 2024</b></td>
+              <td style="padding: 0 5px 20px 0;"><b>30 Mar 2024</b></td>
+            </tr>
+            <tr>
+              <td style="padding: 0 5px 0 0;">Cancellation costs</td>
+              <td style="padding: 0 5px;"></td>
+            </tr>
+            <tr>
+              <td style="padding: 0 5px 0 0;"><b>Pollcy limit $5,000,00</b></td>
+              <td style="padding: 0 5px;"></td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-divider align="center" border-width="2px" border-style="solid" border-color="#d9d9d9" padding="15px 0px 10px 0px"></mj-divider>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-text align="left" font-size="20px" padding="10px 10px 10px 10px">PRICE BREAKDOWN</mj-text>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 10px 0px 10px">
+          <mj-table font-size="14px" padding="0px 0px 0px 0px">
+            <tr>
+              <td style="padding: 0 15px 0 0;">Pollicy</td>
+              <td style="padding: 0 15px 0 0;"></td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 20px 0;"><b>Essentials</b></td>
+              <td style="padding: 0 0 20px 0;text-align:right;"><b>$227.00</b></td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 20px 0;">Options</td>
+              <td style="padding: 0 15px 20px 0;"></td>
+            </tr>
+            <tr style="font-size:20px;">
+              <td style="padding: 0 0 20px 0;"><b>TOTAL</b></td>
+              <td style="padding: 0 0 20px 0;text-align:right;"><b>$227.00</b></td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-button align="left" background-color="#82e477" color="#1c4e3d" font-weight="bold" border-radius="25px" line-height="120%" target="_blank" vertical-align="middle" border="none" text-align="center" href="https://mjml.io/" padding="10px 0px 10px 10px">BUY POLICY NOW</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section background-repeat="repeat" background-size="auto" background-position="top center" border="none" direction="ltr" text-align="center" padding="20px 0px 20px 0px">
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-text align="left" padding="10px 0px 0px 0px">Before you buy, there are things you should know</mj-text>
+        </mj-column>
+        <mj-column border="none" vertical-align="top" width="100%" padding="0px 0px 0px 0px">
+          <mj-text align="left" padding="0px 0px 0px 0px">
+            <ul style="margin:0;">
+              <li>Please research the area(s) you are travelling to and read the latest govemment advice and entry requirements at your destination to see if your planned travel affected.</li>
+              <li>Consider the activities you're likely to take part in and select a pilicy with the level of cover and options that best suit your needs.</li>
+              <li>Decide if the cover is right for you.</li>
+              <li>Understand your rights to <a href="https://chatgpt.flow.ciandt.cn/" tabindex="-1">cancel the polocy</a>.</li>
+              <li>If your plans change you can assess your <a href="https://chatgpt.flow.ciandt.cn/" tabindex="-1">online account</a> to amend your quote or <a href="https://chatgpt.flow.ciandt.cn/" tabindex="-1">contace us</a></li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

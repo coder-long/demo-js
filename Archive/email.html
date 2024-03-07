@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <table width="100%" class="outer-container">
+    <tr>
+      <td>
+        <container>
+
+          <row>
+            <columns>
+              <img
+                src="https://5418au.test.insurancebycovermore.com/modules/custom/cmap_branded_context/images/covermore-logo.png"
+                alt="Your Travel Insurance Quote">
+            </columns>
+          </row>
+
+          <row>
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+            <columns small="10" large="8">
+
+              <spacer size="36"></spacer>
+
+              <p class="lead">Protecting your upcoming trip with \{{ tripInfo.name }} costs: \{{
+                tripInfo.total_price }}</p>
+
+              <spacer size="36"></spacer>
+
+              <table class="travel-details-table">
+                <thead>
+                  <tr>
+                    <th colspan="2">Travel Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Destination</th>
+                    <td>\{{ tripInfo.destinations }}</td>
+                  </tr>
+                  <tr>
+                    <th>Travel Dates</th>
+                    <td>\{{ tripInfo.dep_date }} &ndash; \{{ tripInfo.return_date }}</td>
+                  </tr>
+                  <tr>
+                    <th>Travellers' Age</th>
+                    <td>\{{ tripInfo.ages }}</td>
+                  </tr>
+                  <tr>
+                    <th>Recommended</th>
+                    <td>\{{ tripInfo.name }}</td>
+                  </tr>
+                  <tr>
+                    <th>Price</th>
+                    <td>\{{ tripInfo.total_price }}</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <spacer size="36"></spacer>
+
+              <center>
+                <a href="\{{ recallQuoteUrl }}" class="btn-link"><img
+                    src="\{{ url('<front>') }}\{{ base_path ~ directory }}/images/email/fcau-btn-retrieve-quote.jpg"></a>
+              </center>
+
+              <spacer size="36"></spacer>
+
+            </columns>
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+          </row>
+
+          <row class="benefits">
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+            <columns small="10" large="8">
+
+              <spacer size="36"></spacer>
+
+              <strong>Benefits Include</strong>
+
+              <spacer size="15"></spacer>
+
+              <p><img src="\{{ url('<front>') }}\{{ base_path ~ directory }}/images/email/green-check.png" />
+                Overseas medical and dental</p>
+
+              <p><img src="\{{ url('<front>') }}\{{ base_path ~ directory }}/images/email/green-check.png" />
+                Amendment or cancellation costs</p>
+
+              <p><img src="\{{ url('<front>') }}\{{ base_path ~ directory }}/images/email/green-check.png" />
+                Delayed luggage allowance</p>
+
+              <p class="disclaimer">Money back guarantee available when you cancel your policy within 15
+                working days of purchase and you have not made a claim or departed on your journey.</p>
+
+              <spacer size="32"></spacer>
+
+            </columns>
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+          </row>
+
+          <row>
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+            <columns small="10" large="8">
+
+              <spacer size="36"></spacer>
+
+              <center><strong>You are only a few clicks away from protecting
+                  your trip with travel insurance cover.</strong></center>
+
+              <spacer size="36"></spacer>
+
+              <center>
+                <a href="\{{ recallQuoteUrl }}" class="btn-link"><img
+                    src="\{{ url('<front>') }}\{{ base_path ~ directory }}/images/email/fcau-btn-retrieve-quote.jpg"></a>
+              </center>
+
+              <spacer size="36"></spacer>
+
+              <p class="disclaimer">This is general advice only. Please read the combined FSG/PDS to
+                ensure this insurance meets your financial circumstances, objectives and needs. Limits,
+                exclusions and conditions apply.</p>
+
+              <p class="disclaimer">Insurance administered by Cover-More Insurance Services Pty Ltd (ABN
+                95 003 114 145, AFSL 241713) and issued by Zurich Australian Limited (ABN 13 000 296
+                640, AFSL 232507).</p>
+
+              <spacer size="32"></spacer>
+
+            </columns>
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+          </row>
+
+          <row class="footer">
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+            <columns small="10" large="8">
+
+              <spacer size="36"></spacer>
+
+              <img src="\{{ url('<front>') }}\{{ base_path ~ directory }}/images/email/logo-cover-more.png" width="187"
+                height="19" alt="Provided By Cover-More" />
+
+              <spacer size="55"></spacer>
+
+              <p class="links"><a href="\{{ pdsUrl }}">Product Disclosure Statement</a> | <a
+                  href="https://www.flightcentre.com.au/privacy">Privacy Policy</a> | <a
+                  href="https://www.flightcentre.com.au/booking-terms-condition">Terms of Use</a></p>
+
+              <spacer size="15"></spacer>
+
+              <p>Limits, sub-limits, conditions and exclusions apply. Flight Centre is an Authorised
+                Representative of Cover-More Insurance Services Pty Ltd (ABN 95 003 114 145, AFSL
+                241713) who administers insurance on behalf of the product issuer, Zurich Australian
+                Insurance Limited (ABN 13 000 296 640, AFSL 232507). Any advice is general advice only.
+                Please consider your financial situation, needs and objectives and read the Combined
+                FSG/PDS before deciding to buy this insurance.</p>
+
+              <p>Copyright &copy; 2019 Flight Centre Australia.</p>
+
+              <spacer size="36"></spacer>
+
+            </columns>
+
+            <columns small="1" large="2">
+              <spacer size="1"></spacer>
+            </columns>
+
+          </row>
+        </container>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

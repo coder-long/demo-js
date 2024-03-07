@@ -1,0 +1,127 @@
+<mjml>
+  <mj-head>
+
+    <mj-html-attributes>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="text-color" text-color="#000000"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-family" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-size" font-size="14px"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="line-height" line-height="1.7"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="font-weight" font-weight="400"></mj-html-attribute>
+      <mj-html-attribute class="easy-email" multiple-attributes="false" attribute-name="responsive" responsive="true"></mj-html-attribute>
+
+    </mj-html-attributes>
+
+
+    <mj-style>
+      .mjml-body {
+        width: 600px;
+        margin: 0px auto;
+      }
+    </mj-style>
+    <mj-style>
+      a {
+        color: inherit
+      }
+
+      a:hover {
+        color: inherit
+      }
+
+      a:active {
+        color: inherit
+      }
+    </mj-style>
+
+    <mj-breakpoint width="480px" />
+
+
+    <mj-attributes>
+
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans','Helvetica Neue', sans-serif" />
+      <mj-text font-size="14px" />
+      <mj-text color="#000000" />
+      <mj-text line-height="1.7" />
+      <mj-text font-weight="400" />
+
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="600px" css-class="mjbody" background-color="#8C9A80">
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#FFFFFF" background-repeat="repeat" background-position="top center">
+      <mj-column border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-navbar align="center" font-family="Arial, sans-serif">
+          <mj-navbar-link color="#1890ff" target="_blank" padding="15px 10px 15px 10px" font-size="13px" font-family="Arial, sans-serif">Shop</mj-navbar-link>
+
+
+          <mj-navbar-link color="#1890ff" target="_blank" padding="15px 10px 15px 10px" font-size="13px" font-family="Arial, sans-serif">About</mj-navbar-link>
+
+
+          <mj-navbar-link color="#1890ff" target="_blank" padding="15px 10px 15px 10px" font-size="13px" font-family="Arial, sans-serif">Contact</mj-navbar-link>
+
+
+          <mj-navbar-link color="#1890ff" target="_blank" padding="15px 10px 15px 10px" font-size="13px" font-family="Arial, sans-serif">Blog</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#263D29" background-repeat="repeat" background-position="top center">
+      <mj-column width="100%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-text align="left" color="#FFFFFF" padding="10px 25px 10px 25px" font-family="Arial, sans-serif">JOIN US FOR A FEAST ON</mj-text>
+        <mj-text align="left" color="#FFFFFF" padding="10px 25px 10px 25px" font-size="36px" font-family="Arial, sans-serif">St. Patrick's Day</mj-text>
+        <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/S7EvMw/images/29140463-2f83-49ea-922d-ac65063642cd.gif" align="center" color="#ffffff" height="auto" padding="20px 0px 20px 0px" grid-color="#12304b" font-family="Arial, sans-serif" shadow-color="#000000" background-color="#1A1F25">
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="32px" font-family="Arial, sans-serif">SUMMER SALE</mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% OFF</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% OFF</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% O5FF</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% OF4F</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% OFF</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% OF3F</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% O3FF</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% OFF</em></span></mj-text>
+          <mj-text align="center" color="#ffffff" padding="10px 25px 10px 25px" font-size="64px" font-family="Arial, sans-serif"><span><em>50% O1FF</em></span></mj-text>
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#263D29" background-repeat="repeat" background-position="top center">
+      <mj-column width="480px" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-text align="left" color="#FFFFFF" padding="10px 20px 10px 20px" font-family="Arial, sans-serif">From hearty stews and comforting shepherd's pie to classic fish and chips, we have something to satisfy every appetite.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#263D29" background-repeat="repeat" background-position="top center">
+      <mj-column width="100%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/S7EvMw/images/6644858a-f5af-4bff-917d-f13c5df516ce.png" align="center" height="auto" padding="0px 0px 0px 0px" font-family="Arial, sans-serif"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#263D29" background-repeat="repeat" background-position="top center">
+      <mj-column width="100%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-button href="#" align="center" color="#ffffff" width="100%" border="none" target="_blank" padding="10px 25px 10px 25px" font-size="16px" text-align="center" font-family="Arial, sans-serif" font-weight="normal" line-height="120%" border-radius="3px" vertical-align="middle" background-color="#C5900C" inner-padding="10px 25px 10px 25px">Book a table</mj-button>
+        <mj-button href="#" align="center" color="#C5900C" width="100%" border="3px solid #C5900C" target="_blank" padding="10px 25px 10px 25px" font-size="16px" text-align="center" font-family="Arial, sans-serif" font-weight="normal" line-height="120%" border-radius="3px" vertical-align="middle" background-color="#FCF0D3">Book a table</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#FFFFFF" background-repeat="repeat" background-position="top center">
+      <mj-column width="50%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-text align="left" padding="25px 25px 25px 25px" font-family="Arial, sans-serif">And of course, no Irish meal would be complete without a pint of Guinness or a dram of Irish whiskey to wash it down.<br /><br /><span><strong>View drink menu</strong></span></mj-text>
+      </mj-column>
+      <mj-column width="50%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/S7EvMw/images/a096e725-a517-477e-bdb9-97211537aeb8.png" align="center" height="auto" padding="25px 25px 25px 25px" font-family="Arial, sans-serif"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#ffffff" background-repeat="repeat" background-position="top center">
+      <mj-column width="100%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-divider align="center" padding="10px 0px 10px 0px" font-family="Arial, sans-serif" border-color="#C9CCCF" border-style="solid" border-width="1px"></mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#FFFFFF" background-repeat="repeat" background-position="top center">
+      <mj-column width="50%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-text align="left" padding="25px 25px 25px 25px" font-family="Arial, sans-serif">And of course, no Irish meal would be complete without a pint of Guinness or a dram of Irish whiskey to wash it down.<br /><br /><span><strong>View drink menu</strong></span></mj-text>
+      </mj-column>
+      <mj-column width="50%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/S7EvMw/images/f812b491-36cb-4a82-b2f0-eea60ed5eba9.png" align="center" height="auto" padding="25px 25px 25px 25px" font-family="Arial, sans-serif"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section border="none" padding="0px 0px 0px 0px" direction="ltr" text-align="center" font-family="Arial, sans-serif" background-size="auto" background-color="#263D29" background-repeat="repeat" background-position="top center">
+      <mj-column width="100%" border="none" padding="0px 0px 0px 0px" font-family="Arial, sans-serif" vertical-align="top">
+        <mj-text align="left" color="#FFFFFF" padding="10px 25px 10px 25px" font-family="Arial, sans-serif">No longer want to receive these emails? <span><a href="#" target="_blank">unsubscribe</a></span></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
