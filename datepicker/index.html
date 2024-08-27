@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DatePicker</title>
+  <link rel="stylesheet" href="datepicker.css">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .box {
+      margin: 0 auto;
+      width: 400px;
+      margin-top: 10%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <input type="text" name="aa" id="aa">
+    <input type="text" name="bb" id="bb">
+  </div>
+  <script src="./datepicker.js"></script>
+  <script>
+
+    var ela = document.getElementById("aa"),
+      elb = document.getElementById("bb")
+
+    var depDate = new Datepicker(ela, {
+      autohide: true,
+      format: 'DD/MM/YYYY',
+      // minDate,
+      // maxDate,
+      container: document.querySelector('.box'),
+    });
+
+    var returnDate = new Datepicker(elb, {
+      autohide: true,
+      format: 'DD/MM/YYYY',
+      // minDate,
+      // maxDate,
+      container: document.querySelector('.box'),
+    });
+
+  </script>
+</body>`
+
+</html>

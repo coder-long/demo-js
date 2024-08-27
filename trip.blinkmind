@@ -1,0 +1,98 @@
+{
+  "rootTopicKey": "8d76032d-6aac-4638-8ffe-269d6649471e",
+  "editorRootTopicKey": "8d76032d-6aac-4638-8ffe-269d6649471e",
+  "focusKey": "0925f52b-c14e-4b61-8c94-3dbeaa289008",
+  "extData": {},
+  "topics": [
+    {
+      "key": "8d76032d-6aac-4638-8ffe-269d6649471e",
+      "parentKey": null,
+      "subKeys": [
+        "ebfffd90-4cca-4e14-8417-93da6e63a870"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "RootTopic"
+        }
+      ]
+    },
+    {
+      "key": "ebfffd90-4cca-4e14-8417-93da6e63a870",
+      "parentKey": "8d76032d-6aac-4638-8ffe-269d6649471e",
+      "subKeys": [
+        "0925f52b-c14e-4b61-8c94-3dbeaa289008"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
+        }
+      ]
+    },
+    {
+      "key": "0925f52b-c14e-4b61-8c94-3dbeaa289008",
+      "parentKey": "ebfffd90-4cca-4e14-8417-93da6e63a870",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": ""
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}

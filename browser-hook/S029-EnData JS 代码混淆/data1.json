@@ -1,0 +1,283 @@
+{
+  "Status": 1,
+  "Msg": "",
+  "Data": {
+    "Table": [
+      {
+        "Movieid": 716595,
+        "MovieName": "热辣滚烫",
+        "Genre_Main": "剧情",
+        "BoxOffice": 345106,
+        "AvgPrice": 48,
+        "AvgPeoPle": 22,
+        "Area": "中国",
+        "ReleaseTime": "2024-02-10",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/00/5A/wKgATGWvJNuAASueAAv835oVRE806.jpeg"
+      },
+      {
+        "Movieid": 737452,
+        "MovieName": "飞驰人生2",
+        "Genre_Main": "剧情",
+        "BoxOffice": 339089,
+        "AvgPrice": 48,
+        "AvgPeoPle": 19,
+        "Area": "中国",
+        "ReleaseTime": "2024-02-10",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/00/5A/wKgATGWvJfWADzRKABriKY2lzYA91.jpeg"
+      },
+      {
+        "Movieid": 735035,
+        "MovieName": "第二十条",
+        "Genre_Main": "剧情",
+        "BoxOffice": 245186,
+        "AvgPrice": 46,
+        "AvgPeoPle": 16,
+        "Area": "中国",
+        "ReleaseTime": "2024-02-10",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/00/5A/wKgATGWvJziAIkLXABN11qIbDEU94.jpeg"
+      },
+      {
+        "Movieid": 739598,
+        "MovieName": "熊出没·逆转时空",
+        "Genre_Main": "动画",
+        "BoxOffice": 200247,
+        "AvgPrice": 46,
+        "AvgPeoPle": 22,
+        "Area": "中国",
+        "ReleaseTime": "2024-02-10",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/43/E0/wKgASWWvJnOAWKxuABKvRblF10w00.jpeg"
+      },
+      {
+        "Movieid": 711333,
+        "MovieName": "年会不能停！",
+        "Genre_Main": "剧情",
+        "BoxOffice": 105725,
+        "AvgPrice": 39,
+        "AvgPeoPle": 7,
+        "Area": "中国",
+        "ReleaseTime": "2023-12-29",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/48/wKgASmWvcomAMAhnAAlKJM424Hw65.jpeg"
+      },
+      {
+        "Movieid": 745142,
+        "MovieName": "哥斯拉大战金刚2：帝国崛起",
+        "Genre_Main": "动作",
+        "BoxOffice": 95782,
+        "AvgPrice": 43,
+        "AvgPeoPle": 7,
+        "Area": "美国",
+        "ReleaseTime": "2024-03-29",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/43/E0/wKgASWWvLaqAJz13AA48u1QXdNM73.jpeg"
+      },
+      {
+        "Movieid": 749395,
+        "MovieName": "你想活出怎样的人生",
+        "Genre_Main": "动画",
+        "BoxOffice": 79169,
+        "AvgPrice": 39,
+        "AvgPeoPle": 7,
+        "Area": "日本",
+        "ReleaseTime": "2024-04-03",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/44/75/wKgASWX49qeAbpvPAAScsctdHJ4220.jpg"
+      },
+      {
+        "Movieid": 746304,
+        "MovieName": "末路狂花钱",
+        "Genre_Main": "喜剧",
+        "BoxOffice": 78222,
+        "AvgPrice": 40,
+        "AvgPeoPle": 7,
+        "Area": "中国",
+        "ReleaseTime": "2024-05-01",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/23/91/wKgASmY8PEGARbJGAAWJPqzMjTk990.jpg"
+      },
+      {
+        "Movieid": 685456,
+        "MovieName": "九龙城寨之围城",
+        "Genre_Main": "动作",
+        "BoxOffice": 68532,
+        "AvgPrice": 41,
+        "AvgPeoPle": 7,
+        "Area": "中国",
+        "ReleaseTime": "2024-05-01",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/01/1C/wKgATGYKh6uABbHUAAZ515E5VvE242.jpg"
+      },
+      {
+        "Movieid": 596852,
+        "MovieName": "周处除三害",
+        "Genre_Main": "动作",
+        "BoxOffice": 66611,
+        "AvgPrice": 39,
+        "AvgPeoPle": 7,
+        "Area": "中国台湾",
+        "ReleaseTime": "2024-03-01",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/75/wKgASmW8xdKAOAj6AApVW1OYZec722.png"
+      },
+      {
+        "Movieid": 705021,
+        "MovieName": "维和防暴队",
+        "Genre_Main": "动作",
+        "BoxOffice": 51191,
+        "AvgPrice": 42,
+        "AvgPeoPle": 8,
+        "Area": "中国",
+        "ReleaseTime": "2024-05-01",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/FB/wKgAS2YE1O-AEl0eAAfKqqJNtvk457.jpg"
+      },
+      {
+        "Movieid": 700884,
+        "MovieName": "金手指",
+        "Genre_Main": "剧情",
+        "BoxOffice": 41612,
+        "AvgPrice": 40,
+        "AvgPeoPle": 6,
+        "Area": "中国/中国香港",
+        "ReleaseTime": "2023-12-30",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/48/wKgAS2WvcrWAE889ABSL4JntjAw78.jpeg"
+      },
+      {
+        "Movieid": 747074,
+        "MovieName": "功夫熊猫4",
+        "Genre_Main": "动画",
+        "BoxOffice": 37351,
+        "AvgPrice": 41,
+        "AvgPeoPle": 6,
+        "Area": "美国",
+        "ReleaseTime": "2024-03-22",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/00/5A/wKgATGWvLjWAHPqTABERC-v7FJY93.jpeg"
+      },
+      {
+        "Movieid": 703810,
+        "MovieName": "云边有个小卖部",
+        "Genre_Main": "剧情",
+        "BoxOffice": 36212,
+        "AvgPrice": 41,
+        "AvgPeoPle": 8,
+        "Area": "中国",
+        "ReleaseTime": "2024-06-22",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/46/0F/wKgASWZhdBeABdsnAAOfSDhwl_Q018.jpg"
+      },
+      {
+        "Movieid": 739312,
+        "MovieName": "沙丘2",
+        "Genre_Main": "剧情",
+        "BoxOffice": 35278,
+        "AvgPrice": 48,
+        "AvgPeoPle": 7,
+        "Area": "美国",
+        "ReleaseTime": "2024-03-08",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/43/E0/wKgASWWvKTaAK218AAy9Z6LZ4UY59.jpeg"
+      },
+      {
+        "Movieid": 749132,
+        "MovieName": "间谍过家家 代号：白",
+        "Genre_Main": "动画",
+        "BoxOffice": 29324,
+        "AvgPrice": 39,
+        "AvgPeoPle": 7,
+        "Area": "日本",
+        "ReleaseTime": "2024-04-30",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/44/5C/wKgASWXpOoGAcSnQAATcTHa_OQU224.jpg"
+      },
+      {
+        "Movieid": 735506,
+        "MovieName": "我们一起摇太阳",
+        "Genre_Main": "剧情",
+        "BoxOffice": 27538,
+        "AvgPrice": 44,
+        "AvgPeoPle": 5,
+        "Area": "中国",
+        "ReleaseTime": "2024-03-30",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/43/E0/wKgASWWvJ4-AQOapAA4tMFN9Yqk23.jpeg"
+      },
+      {
+        "Movieid": 701997,
+        "MovieName": "临时劫案",
+        "Genre_Main": "剧情",
+        "BoxOffice": 23702,
+        "AvgPrice": 38,
+        "AvgPeoPle": 4,
+        "Area": "中国",
+        "ReleaseTime": "2024-01-19",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/35/wKgAS2WrPgqAOlVlAAU7p9xhdKI116.jpg"
+      },
+      {
+        "Movieid": 710288,
+        "MovieName": "被我弄丢的你",
+        "Genre_Main": "爱情",
+        "BoxOffice": 21170,
+        "AvgPrice": 41,
+        "AvgPeoPle": 5,
+        "Area": "中国",
+        "ReleaseTime": "2024-03-08",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/48/wKgASmWvKJCANcAiAFZihgf4zEM73.jpeg"
+      },
+      {
+        "Movieid": 749396,
+        "MovieName": "猩球崛起：新世界",
+        "Genre_Main": "动作",
+        "BoxOffice": 20959,
+        "AvgPrice": 41,
+        "AvgPeoPle": 4,
+        "Area": "美国",
+        "ReleaseTime": "2024-05-10",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/22/DC/wKgAS2X4-U6ATZ2eAAN5iDDNJ94569.jpg"
+      },
+      {
+        "Movieid": 715557,
+        "MovieName": "潜行",
+        "Genre_Main": "剧情",
+        "BoxOffice": 20265,
+        "AvgPrice": 39,
+        "AvgPeoPle": 5,
+        "Area": "中国",
+        "ReleaseTime": "2023-12-29",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/00/5A/wKgATGWvcqWAZOkXAB55vhws1x472.jpeg"
+      },
+      {
+        "Movieid": 706069,
+        "MovieName": "我才不要和你做朋友呢",
+        "Genre_Main": "喜剧",
+        "BoxOffice": 20001,
+        "AvgPrice": 40,
+        "AvgPeoPle": 4,
+        "Area": "中国",
+        "ReleaseTime": "2024-06-08",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/23/74/wKgASmY5rD6AaVvzAAEBlLdrwUg92.jpeg"
+      },
+      {
+        "Movieid": 694885,
+        "MovieName": "扫黑·决不放弃",
+        "Genre_Main": "剧情",
+        "BoxOffice": 19095,
+        "AvgPrice": 40,
+        "AvgPeoPle": 4,
+        "Area": "中国",
+        "ReleaseTime": "2024-06-08",
+        "defaultImage": "https://images.entgroup.cn/group2/M00/23/92/wKgAS2Y90kuAJoTdAAYmZPFKW5o278.png"
+      },
+      {
+        "Movieid": 751670,
+        "MovieName": "加菲猫家族",
+        "Genre_Main": "动画",
+        "BoxOffice": 17541,
+        "AvgPrice": 37,
+        "AvgPeoPle": 5,
+        "Area": "美国/英国",
+        "ReleaseTime": "2024-06-01",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/02/16/wKgATGZUUumAGu-7AANnN0lHI-U736.jpg"
+      },
+      {
+        "Movieid": 750946,
+        "MovieName": "头脑特工队2",
+        "Genre_Main": "动画",
+        "BoxOffice": 17532,
+        "AvgPrice": 41,
+        "AvgPeoPle": 6,
+        "Area": "美国",
+        "ReleaseTime": "2024-06-21",
+        "defaultImage": "https://images.entgroup.cn/group1/M00/01/89/wKgATGY506CAJpwMAAYdiBq9Vio986.jpg"
+      }
+    ]
+  }
+}
